@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url("../fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: 'OpenSans Regular';
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: 'OpenSans SemiBold';
+  src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+.text-head-h1 {
+  font-family: 'Montserrat Regular', sans-serif;
+  font-size: 54px;
+  line-height: 62px;
+}
+.text-head-h2 {
+  font-family: 'Montserrat Regular', sans-serif;
+  font-size: 42px;
+  line-height: 50px;
+}
+.text-sub {
+  font-family: 'Montserrat Regular', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+}
+.text-sub2 {
+  font-family: 'Montserrat Medium', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+}
+.body-text {
+  font-family: 'OpenSans Regular', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.body-text2 {
+  font-family: 'OpenSans Regular', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+}
+.btn-text {
+  font-family: 'Montserrat Regular', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.text-small {
+  font-family: 'OpenSans Regular', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+.text-p1 {
+  font-family: 'OpenSans Regular', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+}
+.text-p2 {
+  font-family: 'OpenSans Regular', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.color-black {
+  color: #181818;
+}
+.color-gray {
+  color: #B2B2B2;
+}
+.color-white {
+  color: #fff;
+}
+.color-yellow {
+  color: #DA9343;
+}
+.advantages {
+  background-color: #F4F4F4;
+  padding: 88px 0;
+  margin-top: 86px;
+  .container {
+    display: flex;
+  }
+}
