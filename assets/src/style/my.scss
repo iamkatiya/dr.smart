@@ -27,6 +27,7 @@ h3 {
   position: fixed;
   width: 100%;
   background-color: white;
+  z-index: 10;
   border-bottom: 2px solid rgba(128, 128, 128, 0.11);
   .container {
     display: flex;
@@ -711,4 +712,36 @@ h3 {
 .instructions {
   background-color: #F7F7F7;
   padding: 115px 0 493px;
+  &__row {
+    display: flex;
+  }
+}
+.instruction-content {
+  margin-bottom: 62px;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+  &__replace {
+    max-width: 528px;
+    &:first-child {
+      margin-right: 189px;
+    }
+    &:last-child {
+      max-width: 494px;
+    }
+  }
+  &__condition {
+    margin-top: 73px;
+    ul {
+      list-style: none;
+      padding-left: 0;
+      li {
+        margin-bottom: 18px;
+        padding-left: 16px;
+        max-width: 470px;
+        border-left: 3px solid #DA9343;
+      }
+    }
+  }
 }
