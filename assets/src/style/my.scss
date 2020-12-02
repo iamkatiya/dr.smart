@@ -745,3 +745,59 @@ h3 {
     }
   }
 }
+.contacts-banner {
+  padding: 175px 0 221px;
+  background-image: url("../img/contacts-banner.jpg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
+  &__sign {
+    margin-top: 24px;
+  }
+}
+.contacts-content {
+  background-color: #F7F7F7;
+  padding: 128px 0 485px;
+  .container {
+    display: flex;
+  }
+  &__addresses {
+    margin-top: 50px;
+    padding-bottom: 239px;
+  }
+  &__map {
+    margin-left: 70px;
+  }
+}
+.address-block {
+  &__nav {
+    display: flex;
+    margin-bottom: 58px;
+  }
+  &__item {
+    margin-right: 83px;
+    color: #D3D3D3;
+  }
+  &__contacts {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 24px;
+  }
+  &__head {
+    width: 118px;
+    margin-right: 48px;
+  }
+  &__text {
+    max-width: 414px;
+  }
+}
+.address-time {
+  &__row {
+    display: flex;
+    span {
+      width: 78px;
+      display: block;
+      margin-right: 10px;
+    }
+  }
+}

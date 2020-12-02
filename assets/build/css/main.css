@@ -7556,6 +7556,53 @@ h3 {
         max-width: 470px;
         border-left: 3px solid #DA9343; }
 
+.contacts-banner {
+  padding: 175px 0 221px;
+  background-image: url("../img/contacts-banner.jpg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain; }
+  .contacts-banner__sign {
+    margin-top: 24px; }
+
+.contacts-content {
+  background-color: #F7F7F7;
+  padding: 128px 0 485px; }
+  .contacts-content .container {
+    display: flex; }
+  .contacts-content__addresses {
+    margin-top: 50px;
+    padding-bottom: 239px; }
+  .contacts-content__map {
+    margin-left: 70px; }
+
+.address-block__nav {
+  display: flex;
+  margin-bottom: 58px; }
+
+.address-block__item {
+  margin-right: 83px;
+  color: #D3D3D3; }
+
+.address-block__contacts {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px; }
+
+.address-block__head {
+  width: 118px;
+  margin-right: 48px; }
+
+.address-block__text {
+  max-width: 414px; }
+
+.address-time__row {
+  display: flex; }
+  .address-time__row span {
+    width: 78px;
+    display: block;
+    margin-right: 10px; }
+
 @font-face {
   font-family: 'Montserrat Medium';
   src: url("../fonts/Montserrat-Medium.ttf"); }
