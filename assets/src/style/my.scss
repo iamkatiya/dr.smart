@@ -767,6 +767,7 @@ h3 {
   }
   &__map {
     margin-left: 70px;
+    box-shadow: 0 0 34px rgba(0,0,0,0.12);
   }
 }
 .address-block {
@@ -777,6 +778,14 @@ h3 {
   &__item {
     margin-right: 83px;
     color: #D3D3D3;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      color: #DA9343;
+    }
+  }
+  &__active {
+    color: #DA9343;
   }
   &__contacts {
     display: flex;
@@ -800,4 +809,7 @@ h3 {
       margin-right: 10px;
     }
   }
+}
+.city-hidden {
+  display: none;
 }

@@ -7574,7 +7574,8 @@ h3 {
     margin-top: 50px;
     padding-bottom: 239px; }
   .contacts-content__map {
-    margin-left: 70px; }
+    margin-left: 70px;
+    box-shadow: 0 0 34px rgba(0, 0, 0, 0.12); }
 
 .address-block__nav {
   display: flex;
@@ -7582,7 +7583,14 @@ h3 {
 
 .address-block__item {
   margin-right: 83px;
-  color: #D3D3D3; }
+  color: #D3D3D3;
+  cursor: pointer;
+  transition: 0.3s; }
+  .address-block__item:hover {
+    color: #DA9343; }
+
+.address-block__active {
+  color: #DA9343; }
 
 .address-block__contacts {
   display: flex;
@@ -7602,6 +7610,9 @@ h3 {
     width: 78px;
     display: block;
     margin-right: 10px; }
+
+.city-hidden {
+  display: none; }
 
 @font-face {
   font-family: 'Montserrat Medium';
