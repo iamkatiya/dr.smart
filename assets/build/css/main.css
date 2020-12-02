@@ -7614,6 +7614,14 @@ h3 {
 .city-hidden {
   display: none; }
 
+.error-banner {
+  min-height: 290px; }
+  .error-banner__text {
+    margin-top: 32px; }
+  .error-banner__btn {
+    display: inline-table;
+    margin-top: 32px; }
+
 @font-face {
   font-family: 'Montserrat Medium';
   src: url("../fonts/Montserrat-Medium.ttf"); }

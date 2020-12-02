@@ -813,3 +813,13 @@ h3 {
 .city-hidden {
   display: none;
 }
+.error-banner {
+  min-height: 290px;
+  &__text {
+    margin-top: 32px;
+  }
+  &__btn {
+    display: inline-table;
+    margin-top: 32px;
+  }
+}
