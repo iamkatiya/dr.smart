@@ -7075,13 +7075,21 @@ h3 {
     display: block;
     max-width: 200px;
     box-sizing: border-box; }
+  .main-banner__sign {
+    position: absolute;
+    right: 0;
+    bottom: 20px; }
+
+.main-banner.container {
+  position: relative; }
 
 .advantages__item:nth-child(2) {
   margin: 0 134px; }
 
 .advantage {
   border-left: 3px solid #DA9343;
-  padding-left: 16px; }
+  padding-left: 16px;
+  flex: 0 1 auto; }
   .advantage__head {
     margin-bottom: 16px; }
 
@@ -7764,6 +7772,68 @@ h3 {
   padding: 88px 0; }
   .advantages .container {
     display: flex; }
+
+@media (max-width: 1700px) {
+  .container {
+    max-width: 1160px; }
+  .header__nav {
+    margin-left: 37px; }
+    .header__nav a {
+      margin: 0 22px; }
+  .contacts__phone {
+    padding-left: 60px; }
+  .main-banner {
+    background-image: url("../img/banner-mob-1.jpg"); }
+    .main-banner__second {
+      background-image: url("../img/banner-mob-2.jpg"); }
+  .advantages {
+    margin-top: 100px; }
+    .advantages__item:nth-child(2) {
+      margin: 0 90px; }
+  .about__text {
+    padding: 59px 20px 60px 50px; }
+  .about__image {
+    flex: 50%;
+    min-width: 50%; }
+    .about__image img {
+      width: 100%; }
+  .work__text {
+    padding-left: 0;
+    padding-top: 50px; }
+  .work__image {
+    padding-left: 70px; }
+    .work__image img {
+      width: 100%; }
+  .hand-over {
+    padding: 115px 0; }
+    .hand-over__head {
+      margin-left: 100px;
+      max-width: 252px; }
+    .hand-over__btn {
+      margin-right: 100px; }
+    .hand-over__text {
+      width: 380px;
+      padding-right: 64px; }
+  .small-container {
+    max-width: 1200px; }
+  .review__item {
+    margin: 0 21px;
+    padding: 25px; }
+  .review__text {
+    font-size: 16px; }
+  .reviews__head {
+    padding-left: 21px; }
+  .feedback-form .small-container {
+    max-width: 1160px;
+    padding: 119px 75px; }
+  .footer__nav {
+    margin-left: 70px;
+    display: flex; }
+    .footer__nav a {
+      padding: 0 22px; }
+  .footer__social {
+    margin-left: 70px;
+    white-space: nowrap; } }
 
 .slick-next {
   position: absolute;

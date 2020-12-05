@@ -1,0 +1,106 @@
+@media (max-width: 1700px) {
+  .container {
+    max-width: 1160px;
+  }
+  .header {
+    &__nav {
+      margin-left: 37px;
+      a {
+        margin: 0 22px;
+      }
+    }
+  }
+  .contacts {
+    &__phone {
+      padding-left: 60px;
+    }
+  }
+  .main-banner {
+    background-image: url("../img/banner-mob-1.jpg");
+    &__second {
+      background-image: url("../img/banner-mob-2.jpg");
+    }
+  }
+  .advantages {
+    margin-top: 100px;
+    &__item {
+      &:nth-child(2) {
+        margin: 0 90px;
+      }
+    }
+  }
+  .about {
+    &__text {
+      padding: 59px 20px 60px 50px;
+    }
+    &__image {
+      flex: 50%;
+      min-width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .work {
+    &__text {
+      padding-left: 0;
+      padding-top: 50px;
+    }
+    &__image {
+      padding-left: 70px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .hand-over {
+    padding: 115px 0;
+    &__head {
+      margin-left: 100px;
+      max-width: 252px;
+    }
+    &__btn {
+      margin-right: 100px;
+    }
+    &__text {
+      width: 380px;
+      padding-right: 64px;
+    }
+  }
+  .small-container {
+    max-width: 1200px;
+  }
+  .review {
+    &__item {
+      margin: 0 21px;
+      padding: 25px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+  }
+  .reviews {
+    &__head {
+      padding-left: 21px;
+    }
+  }
+  .feedback-form {
+    .small-container {
+      max-width: 1160px;
+      padding: 119px 75px;
+    }
+  }
+  .footer {
+    &__nav {
+      margin-left: 70px;
+      display: flex;
+      a {
+        padding: 0 22px;
+      }
+    }
+    &__social {
+      margin-left: 70px;
+      white-space: nowrap;
+    }
+  }
+}

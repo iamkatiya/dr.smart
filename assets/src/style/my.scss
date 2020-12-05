@@ -171,6 +171,14 @@ h3 {
     max-width: 200px;
     box-sizing: border-box;
   }
+  &__sign {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+  }
+}
+.main-banner.container {
+  position: relative;
 }
 .advantages {
   &__item {
@@ -182,6 +190,7 @@ h3 {
 .advantage {
   border-left: 3px solid #DA9343;
   padding-left: 16px;
+  flex: 0 1 auto;
   &__head {
     margin-bottom: 16px;
   }
