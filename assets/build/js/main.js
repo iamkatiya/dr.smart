@@ -11,6 +11,9 @@ $('.msc').click(function () {
   $('.msc').addClass('address-block__active');
   $('.irk').removeClass('address-block__active');
 });
+$('#city').click(function () {
+  $('.choose-city').addClass('choose-city__active');
+});
 
 $(".slider").slick({
 
@@ -32,4 +35,16 @@ $(".slider").slick({
     }
 
   }]
+});
+
+$(".review").slick({
+
+  slidesToShow: 3,
+});
+
+$(function(){
+  $("#up").bind('click', function(e){
+    e.preventDefault();
+    $('body,html').animate({scrollTop: 0}, 2000);
+  });
 });

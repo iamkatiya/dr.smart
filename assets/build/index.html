@@ -19,13 +19,13 @@
             <a href="#" class="btn-text color-black">Контакты</a>
         </div>
         <div class="header__contacts contacts">
-            <div class="contacts__city btn-text color-black">
-                ИРКУТСК
-                <!--                <div class="choose-city">-->
-                <!--                    <div>ИРКУТСК</div>-->
-                <!--                    <div>МОСКВА</div>-->
-                <!--                </div>-->
+            <div id="city" class="contacts__city btn-text color-black">
+                <div class="city-value">ИРКУТСК</div>
                 <img class="contacts__arr" src="../img/header-arrow.svg">
+                <div class="choose-city">
+                    <a href="#" class="choose-city__irk active-city">ИРКУТСК</a>
+                    <a href="#" class="choose-city__msc">МОСКВА</a>
+                </div>
             </div>
             <a href="#" class="contacts__phone text-sub2 color-black">
                 +7(499) 346-69-95
@@ -190,18 +190,21 @@
         УЗНАТЬ
     </a>
 </section>
-<section class="reviews">
+<!--    заменила класс, вставила все отзывы-->
+<section class="mentions">
     <div class="small-container">
-        <div class="reviews__head">
-            <p class="about-content__sign text-p2 color-gray">
-                О НАС ГОВОРЯТ
-            </p>
-            <h3 class="about-content__head text-head-h2 color-black">
-                Отзывы
-            </h3>
-        </div>
-        <div class="reviews__sign body-text color-black">
-            За годы работы клиенты оставили большое количество отзывов о качестве оказываемых нами услуг.
+        <div class="mentions__wrap">
+            <div class="reviews__head">
+                <p class="about-content__sign text-p2 color-gray">
+                    О НАС ГОВОРЯТ
+                </p>
+                <h3 class="about-content__head text-head-h2 color-black">
+                    Отзывы
+                </h3>
+            </div>
+            <div class="reviews__sign body-text color-black">
+                За годы работы клиенты оставили большое количество отзывов о качестве оказываемых нами услуг.
+            </div>
         </div>
         <div class="reviews__items review">
             <div class="review__item">
@@ -229,6 +232,55 @@
                 <a href="#" class="review__company">
                     <img src="img/yell.svg">
                     <p class="body-text">Читать весь отзыв на yell.ru</p>
+                </a>
+            </div>
+            <div class="review__item">
+                <div class="review__text text-p1 color-black">
+                    Сдавала телефон из-за неисправности дисплея,в течении недели все сделали и вернули как новенький! Отличный сервис!                </div>
+                <a href="#" class="review__company">
+                    <img src="img/2gis.svg">
+                    <p class="body-text">Отзыв с сайта 2gis.ru</p>
+                </a>
+            </div>
+            <div class="review__item">
+                <div class="review__text text-p1 color-black">
+                    Заменили сломанный гарантийный айфон за два дня, само обслуживание в офисе быстрое, без очередей                </div>
+                <a href="#" class="review__company">
+                    <img src="img/yandex.svg">
+                    <p class="body-text">Отзыв с сайта yandex.ru</p>
+                </a>
+            </div>
+            <div class="review__item">
+                <div class="review__text text-p1 color-black">
+                    Второй раз меняю по гарантии iPhone на новый и второй раз удивляют скоростью выявления неисправности и заменой. Проходит 3-4 дня...                </div>
+                <a href="#" class="review__company">
+                    <img src="img/yell.svg">
+                    <p class="body-text">Читать весь отзыв на yell.ru</p>
+                </a>
+            </div>
+            <div class="review__item">
+                <div class="review__text text-p1 color-black">
+                    Обращались в Доктор Смарт по гарантии. Аппарат поменяли. Все быстро, четко, в срок и по делу! Сервис понравился!               </div>
+                <a href="#" class="review__company">
+                    <img src="img/2gis.svg">
+                    <p class="body-text">Отзыв с сайта 2gis.ru</p>
+                </a>
+            </div>
+            <div class="review__item">
+                <div class="review__text text-p1 color-black">
+                    Замена по гарантии. Внимательно. По-деловому. Все четко               </div>
+                <a href="#" class="review__company">
+                    <img src="img/2gis.svg">
+                    <p class="body-text">Отзыв с сайта 2gis.ru</p>
+                </a>
+            </div>
+            <div class="review__item">
+                <div class="review__text text-p1 color-black">
+                    Компетентные специалисты.
+                    Быстрый и качественный ремонт.               </div>
+                <a href="#" class="review__company">
+                    <img src="img/yandex.svg">
+                    <p class="body-text">Отзыв с сайта yandex.ru</p>
                 </a>
             </div>
         </div>
@@ -287,7 +339,7 @@
             <a href="#" class="body-text color-white">
                 Политика конфиденциальности
             </a>
-            <div class="ontop btn-text color-white">
+            <div id="up" class="ontop btn-text color-white">
                 НАВЕРХ
                 <img src="../img/arrow-up.svg">
             </div>
