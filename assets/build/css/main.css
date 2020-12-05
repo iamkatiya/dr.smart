@@ -7022,10 +7022,14 @@ h3 {
 
 .main-banner {
   padding: 182px 0 276px;
-  background-image: url("../img/banner.png");
+  background-image: url("../img/banner-first.jpg");
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: center;
   background-position-y: bottom; }
+  .main-banner__second {
+    background-image: url("../img/banner.jpg");
+    background-position-x: center;
+    background-position-y: bottom; }
   .main-banner__description {
     display: block;
     margin-top: 24px; }
@@ -7622,6 +7626,9 @@ h3 {
     display: inline-table;
     margin-top: 32px; }
 
+.long-btn {
+  max-width: 217px; }
+
 @font-face {
   font-family: 'Montserrat Medium';
   src: url("../fonts/Montserrat-Medium.ttf"); }
@@ -7710,7 +7717,14 @@ h3 {
 
 .advantages {
   background-color: #F4F4F4;
-  padding: 88px 0;
-  margin-top: 86px; }
+  padding: 88px 0; }
   .advantages .container {
     display: flex; }
+
+.slick-next {
+  position: absolute;
+  bottom: 0; }
+
+.slick-prev {
+  position: absolute;
+  bottom: 0; }

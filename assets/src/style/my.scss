@@ -109,10 +109,15 @@ h3 {
 }
 .main-banner {
   padding: 182px 0 276px;
-  background-image: url("../img/banner.png");
+  background-image: url("../img/banner-first.jpg");
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: center;
   background-position-y: bottom;
+  &__second {
+    background-image: url("../img/banner.jpg");
+    background-position-x: center;
+    background-position-y: bottom;
+  }
   &__description {
     display: block;
     margin-top: 24px;
@@ -822,4 +827,8 @@ h3 {
     display: inline-table;
     margin-top: 32px;
   }
+}
+
+.long-btn {
+  max-width: 217px;
 }

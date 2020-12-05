@@ -43,3 +43,12 @@
 @import "my";
 @import "media";
 @import "fonts";
+
+.slick-next {
+  position: absolute;
+  bottom: 0;
+}
+.slick-prev {
+  position: absolute;
+  bottom: 0;
+}

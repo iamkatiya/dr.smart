@@ -10,3 +10,26 @@ $('.msc').click(function () {
   $('.msc').addClass('address-block__active');
   $('.irk').removeClass('address-block__active');
 });
+
+$(".slider").slick({
+
+  infinite: false,
+  slidesToShow: 1,
+  responsive: [{
+
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 1,
+      dots: true
+    }
+
+  }, {
+
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 2
+    }
+
+  }]
+});
+
