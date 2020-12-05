@@ -104,3 +104,79 @@
     }
   }
 }
+@media (min-width: 1201px) {
+  .header {
+    &__burger {
+      display: none;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 673px;
+  }
+  .header {
+    .container {
+      justify-content: space-between;
+    }
+    &__nav {
+      display: none;
+    }
+    &__contacts {
+      margin-left: 10px;
+    }
+  }
+  .contacts {
+    &__city {
+      display: none;
+    }
+    &__phone {
+      padding-left: 0;
+      font-size: 18px;
+    }
+  }
+  .burger {
+    margin-right: 42px;
+  }
+  .footer {
+    p {
+      text-align: end;
+    }
+    .container {
+      justify-content: space-between;
+    }
+    &__nav {
+      display: none;
+    }
+    &__contacts {
+      order: 2;
+    }
+    &__social {
+      margin-left: 0;
+    }
+  }
+  .ontop {
+    justify-content: flex-start;
+  }
+  .footer-bottom {
+    .container {
+      flex-wrap: wrap;
+      .color-gray {
+        color: #8d8d8d;
+      }
+      div {
+        &:first-child {
+          order: 2;
+        }
+        &:nth-child(2) {
+          flex: 100%;
+          order: 1;
+        }
+      }
+      a {
+        display: block;
+        order: 3;
+      }
+    }
+  }
+}
