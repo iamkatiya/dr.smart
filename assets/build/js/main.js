@@ -58,6 +58,11 @@ $(".review").slick({
     settings: {
       slidesToShow: 2
     }
+  }, {
+    breakpoint: 700,
+    settings: {
+      slidesToShow: 1
+    }
   }]
 });
 

@@ -208,14 +208,6 @@
     &__second {
       background-image: url("../img/banner-mobile-4.jpg");
     }
-    &__head {
-      font-size: 44px;
-      line-height: 52px;
-    }
-    &__description {
-      font-size: 18px;
-      line-height: 26px;
-    }
     &__wrap {
       padding-bottom: 350px;
     }
@@ -277,8 +269,6 @@
     align-items: flex-start;
     &__head {
       margin-left: 0;
-      font-size: 32px;
-      line-height: 40px;
       flex: 50%;
       padding-right: 20px;
     }
@@ -374,10 +364,169 @@
     }
   }
 }
+@media (min-width: 701px) {
+  .contacts {
+    &__phone {
+      &__mobile {
+        display: none;
+      }
+    }
+  }
+}
 @media (max-width: 700px) {
   .container {
     max-width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .contacts {
+    &__phone {
+      display: none;
+    }
+  }
+  .burger {
+    margin-right: 0;
+  }
+  .header {
+    padding: 11px 0;
+    &__logo {
+      width: 124px;
+      height: 40px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .main-banner {
+    padding-top: 80px;
+    background-size: contain;
+    &__wrap {
+      padding-bottom: 200px;
+    }
+  }
+  .slider-dots {
+    left: calc(50% - 62px);
+    top: 550px;
+  }
+  .about {
+    margin-top: 30px;
+    &__text {
+      order: 1;
+      padding-right: 0;
+    }
+    &__image {
+      order: 2;
+      height: 359px;
+    }
+  }
+  .about-content {
+    &__head {
+      padding-bottom: 12px;
+    }
+    &__sign {
+      padding-bottom: 5px;
+    }
+    &__text {
+      padding-bottom: 24px;
+    }
+  }
+  .seven-years {
+    &__count {
+      font-size: 14px;
+      span {
+        font-size: 60px;
+      }
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 22px;
+      padding-left: 8px;
+    }
+  }
+  .work {
+    &__image {
+      margin-left: 0;
+      flex: 100%;
+      max-width: 100%;
+      padding-left: 0;
+    }
+  }
+  .work-item {
+    margin-bottom: 25px;
+    &__number {
+      font-size: 30px;
+    }
+    &__text {
+      width: auto;
+      p {
+        min-width: auto;
+      }
+    }
+  }
+  .hand-over {
+    margin: 64px auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    &__head {
+      flex: 100%;
+      margin-bottom: 8px;
+    }
+    &__text {
+      flex: 100%;
+    }
+    &__btn {
+      margin-left: 0;
+      margin-top: 16px;
+    }
+  }
+  .review {
+    .slick-dots {
+      li {
+        button {
+          width: 28px;
+        }
+      }
+    }
+  }
+  .small-container {
+    max-width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .mentions {
+    &__wrap {
+      flex-wrap: wrap;
+    }
+  }
+  .reviews {
+    &__sign {
+      padding-left: 22px;
+    }
+  }
+  .feedback-form {
+    .small-container {
+      max-width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    &__form {
+      min-width: auto;
+      width: 100%;
+    }
+  }
+  .form {
+    &__textarea {
+      width: 100%;
+    }
+    &__send {
+      flex-wrap: wrap;
+      .yellow-button {
+        display: block;
+        margin: 20px auto;
+      }
+    }
   }
 }

@@ -7768,6 +7768,10 @@ h3 {
     .text-head-h1 {
       font-size: 44px;
       line-height: 52px; } }
+  @media (max-width: 700px) {
+    .text-head-h1 {
+      font-size: 22px;
+      line-height: 30px; } }
 
 .text-head-h2 {
   font-family: 'Montserrat Regular', sans-serif;
@@ -7777,6 +7781,10 @@ h3 {
     .text-head-h2 {
       font-size: 32px;
       line-height: 40px; } }
+  @media (max-width: 700px) {
+    .text-head-h2 {
+      font-size: 22px;
+      line-height: 30px; } }
 
 .text-sub {
   font-family: 'Montserrat Regular', sans-serif;
@@ -7795,6 +7803,10 @@ h3 {
     .text-sub2 {
       font-size: 18px;
       line-height: 26px; } }
+  @media (max-width: 700px) {
+    .text-sub2 {
+      font-size: 14px;
+      line-height: 22px; } }
 
 .body-text {
   font-family: 'OpenSans Regular', sans-serif;
@@ -7804,11 +7816,19 @@ h3 {
     .body-text {
       font-size: 14px;
       line-height: 24px; } }
+  @media (max-width: 700px) {
+    .body-text {
+      font-size: 12px;
+      line-height: 22px; } }
 
 .body-text2 {
   font-family: 'OpenSans Regular', sans-serif;
   font-size: 22px;
   line-height: 32px; }
+  @media (max-width: 700px) {
+    .body-text2 {
+      font-size: 12px;
+      line-height: 22px; } }
 
 .btn-text {
   font-family: 'Montserrat Regular', sans-serif;
@@ -8066,12 +8086,6 @@ h3 {
     padding: 150px 0 115px; }
     .main-banner__second {
       background-image: url("../img/banner-mobile-4.jpg"); }
-    .main-banner__head {
-      font-size: 44px;
-      line-height: 52px; }
-    .main-banner__description {
-      font-size: 18px;
-      line-height: 26px; }
     .main-banner__wrap {
       padding-bottom: 350px; }
     .main-banner__btn {
@@ -8114,8 +8128,6 @@ h3 {
     align-items: flex-start; }
     .hand-over__head {
       margin-left: 0;
-      font-size: 32px;
-      line-height: 40px;
       flex: 50%;
       padding-right: 20px; }
     .hand-over__text {
@@ -8185,8 +8197,105 @@ h3 {
     .work-item__text p {
       min-width: 279px; } }
 
+@media (min-width: 701px) {
+  .contacts__phone__mobile {
+    display: none; } }
+
 @media (max-width: 700px) {
   .container {
     max-width: 100%;
     padding-left: 20px;
-    padding-right: 20px; } }
+    padding-right: 20px; }
+  .contacts__phone {
+    display: none; }
+  .burger {
+    margin-right: 0; }
+  .header {
+    padding: 11px 0; }
+    .header__logo {
+      width: 124px;
+      height: 40px; }
+      .header__logo img {
+        width: 100%;
+        height: 100%; }
+  .main-banner {
+    padding-top: 80px;
+    background-size: contain; }
+    .main-banner__wrap {
+      padding-bottom: 200px; }
+  .slider-dots {
+    left: calc(50% - 62px);
+    top: 550px; }
+  .about {
+    margin-top: 30px; }
+    .about__text {
+      order: 1;
+      padding-right: 0; }
+    .about__image {
+      order: 2;
+      height: 359px; }
+  .about-content__head {
+    padding-bottom: 12px; }
+  .about-content__sign {
+    padding-bottom: 5px; }
+  .about-content__text {
+    padding-bottom: 24px; }
+  .seven-years__count {
+    font-size: 14px; }
+    .seven-years__count span {
+      font-size: 60px; }
+  .seven-years__text {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 8px; }
+  .work__image {
+    margin-left: 0;
+    flex: 100%;
+    max-width: 100%;
+    padding-left: 0; }
+  .work-item {
+    margin-bottom: 25px; }
+    .work-item__number {
+      font-size: 30px; }
+    .work-item__text {
+      width: auto; }
+      .work-item__text p {
+        min-width: auto; }
+  .hand-over {
+    margin: 64px auto;
+    padding-top: 48px;
+    padding-bottom: 48px; }
+    .hand-over__head {
+      flex: 100%;
+      margin-bottom: 8px; }
+    .hand-over__text {
+      flex: 100%; }
+    .hand-over__btn {
+      margin-left: 0;
+      margin-top: 16px; }
+  .review .slick-dots li button {
+    width: 28px; }
+  .small-container {
+    max-width: 100%;
+    padding-left: 2px;
+    padding-right: 2px; }
+  .mentions__wrap {
+    flex-wrap: wrap; }
+  .reviews__sign {
+    padding-left: 22px; }
+  .feedback-form .small-container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .feedback-form__form {
+    min-width: auto;
+    width: 100%; }
+  .form__textarea {
+    width: 100%; }
+  .form__send {
+    flex-wrap: wrap; }
+    .form__send .yellow-button {
+      display: block;
+      margin: 20px auto; } }
