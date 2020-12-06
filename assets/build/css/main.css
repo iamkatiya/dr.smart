@@ -6980,6 +6980,28 @@ h3 {
   .header__contacts {
     margin-left: auto;
     display: flex; }
+  .header__mobile {
+    position: absolute;
+    padding: 40px 0;
+    background-color: white;
+    width: 100%;
+    top: 93px;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.44);
+    transition: 1s;
+    left: -100%; }
+    .header__mobile .container {
+      flex-wrap: wrap; }
+
+.mobile-dropdown__footer {
+  margin-top: 142px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%; }
+
+.mobile-dropdown__insta {
+  display: flex;
+  align-items: center; }
 
 .city-value {
   position: relative; }
@@ -7685,7 +7707,8 @@ h3 {
 .burger {
   width: 36px;
   height: 25px;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .burger__line {
     position: absolute;
     left: 0;
@@ -7694,11 +7717,28 @@ h3 {
     background-color: #181818;
     border-radius: 2px; }
   .burger__first-line {
-    top: 0; }
+    top: 0;
+    transition: 0.3s; }
   .burger__second-line {
-    top: 11px; }
+    top: 11px;
+    transition: 0.3s; }
   .burger__third-line {
-    bottom: 0; }
+    bottom: 0;
+    transition: 0.3s; }
+
+.transform-first {
+  transform: rotate(45deg);
+  top: 11px; }
+
+.transform-second {
+  left: -100%; }
+
+.transform-third {
+  transform: rotate(-45deg);
+  bottom: 11px; }
+
+.active-dropdown {
+  left: 0; }
 
 @font-face {
   font-family: 'Montserrat Medium';
@@ -7968,6 +8008,8 @@ h3 {
 
 @media (min-width: 1201px) {
   .header__burger {
+    display: none; }
+  .header__mobile {
     display: none; } }
 
 @media (max-width: 1200px) {
@@ -7977,7 +8019,13 @@ h3 {
   .header .container {
     justify-content: space-between; }
   .header__nav {
-    display: none; }
+    display: none;
+    margin-left: 0; }
+    .header__nav__mobile {
+      display: flex;
+      flex: 100%; }
+      .header__nav__mobile a:first-child {
+        margin-left: 0; }
   .header__contacts {
     margin-left: 10px; }
   .contacts__city {

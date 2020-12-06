@@ -117,6 +117,9 @@
     &__burger {
       display: none;
     }
+    &__mobile {
+      display: none;
+    }
   }
 }
 @media (max-width: 1200px) {
@@ -130,6 +133,14 @@
     }
     &__nav {
       display: none;
+      margin-left: 0;
+      &__mobile {
+        display: flex;
+        flex: 100%;
+        a:first-child {
+          margin-left: 0;
+        }
+      }
     }
     &__contacts {
       margin-left: 10px;

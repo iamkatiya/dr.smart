@@ -5,21 +5,24 @@ $('.irk').click(function () {
   $('.msc').removeClass('address-block__active');
   $('.irk').addClass('address-block__active');
 });
+
 $('.msc').click(function () {
   $('.Moscow').removeClass('city-hidden');
   $('.Irkutsk').addClass('city-hidden');
   $('.msc').addClass('address-block__active');
   $('.irk').removeClass('address-block__active');
 });
+
 $('#city').click(function () {
   $('.choose-city').addClass('choose-city__active');
 });
+
 $(".slider").on("init reInit afterChange", function(event, slick) {
   $(".slider__active.text-p1.color-black").html('0' +(slick.slickCurrentSlide() + 1));
   $(".slider__count").html('0' + slick.slideCount);
 });
-$(".slider").slick({
 
+$(".slider").slick({
   // autoplay: true,
   infinite: false,
   slidesToShow: 1,
@@ -44,6 +47,7 @@ $(".review").on("init reInit afterChange", function(event, slick) {
   $(".review__active.text-p1.color-black").html('0' +(slick.slickCurrentSlide() + 1));
   $(".review__count").html('0' + slick.slideCount);
 });
+
 $(".review").slick({
   slidesToShow: 3,
   arrows: false,
@@ -62,4 +66,11 @@ $(function () {
     e.preventDefault();
     $('body,html').animate({scrollTop: 0}, 2000);
   });
+});
+
+$('#burger').click(function () {
+  $('.burger__line.burger__first-line').toggleClass('transform-first');
+  $('.burger__line.burger__second-line').toggleClass('transform-second');
+  $('.burger__line.burger__third-line').toggleClass('transform-third');
+  $('.header__mobile').toggleClass('active-dropdown');
 });
