@@ -22,26 +22,46 @@
   font-family: 'Montserrat Regular', sans-serif;
   font-size: 54px;
   line-height: 62px;
+  @media (max-width: 1200px) {
+    font-size: 44px;
+    line-height: 52px;
+  }
 }
 .text-head-h2 {
   font-family: 'Montserrat Regular', sans-serif;
   font-size: 42px;
   line-height: 50px;
+  @media (max-width: 1200px) {
+    font-size: 32px;
+    line-height: 40px;
+  }
 }
 .text-sub {
   font-family: 'Montserrat Regular', sans-serif;
   font-size: 22px;
   line-height: 32px;
+  @media (max-width: 1200px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }
 .text-sub2 {
   font-family: 'Montserrat Medium', sans-serif;
   font-size: 22px;
   line-height: 32px;
+  @media (max-width: 1200px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }
 .body-text {
   font-family: 'OpenSans Regular', sans-serif;
   font-size: 16px;
   line-height: 26px;
+  @media (max-width: 1200px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 .body-text2 {
   font-family: 'OpenSans Regular', sans-serif;
@@ -55,6 +75,10 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   white-space: nowrap;
+  @media (max-width: 1200px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 .text-small {
   font-family: 'OpenSans Regular', sans-serif;
@@ -65,6 +89,10 @@
   font-family: 'OpenSans Regular', sans-serif;
   font-size: 18px;
   line-height: 26px;
+  @media (max-width: 1200px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 .text-p2 {
   font-family: 'OpenSans Regular', sans-serif;

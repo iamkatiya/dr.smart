@@ -19,7 +19,7 @@ $(".slider").on("init reInit afterChange", function(event, slick) {
 });
 $(".slider").slick({
 
-  autoplay: true,
+  // autoplay: true,
   infinite: false,
   slidesToShow: 1,
   nav: false,
@@ -48,6 +48,12 @@ $(".review").slick({
   arrows: false,
   dots: true,
   slidesToScroll: 3,
+  responsive: [{
+    breakpoint: 1200,
+    settings: {
+      slidesToShow: 2
+    }
+  }]
 });
 
 $(function () {
