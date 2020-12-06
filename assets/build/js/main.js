@@ -14,11 +14,16 @@ $('.msc').click(function () {
 $('#city').click(function () {
   $('.choose-city').addClass('choose-city__active');
 });
-
+$(".slider").on("init reInit afterChange", function(event, slick) {
+  $(".slider__active.text-p1.color-black").html('0' +(slick.slickCurrentSlide() + 1));
+  $(".slider__count").html('0' + slick.slideCount);
+});
 $(".slider").slick({
 
   infinite: false,
   slidesToShow: 1,
+  nav: false,
+  dots: true,
   responsive: [{
 
     breakpoint: 1024,
@@ -42,8 +47,8 @@ $(".review").slick({
   slidesToShow: 3,
 });
 
-$(function(){
-  $("#up").bind('click', function(e){
+$(function () {
+  $("#up").bind('click', function (e) {
     e.preventDefault();
     $('body,html').animate({scrollTop: 0}, 2000);
   });

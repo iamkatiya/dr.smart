@@ -7905,3 +7905,41 @@ h3 {
 .slick-prev {
   position: absolute;
   bottom: 0; }
+
+.slider .slick-next {
+  display: none !important; }
+
+.slider .slick-prev {
+  display: none !important; }
+
+.slider .slick-dots {
+  display: flex;
+  list-style: none;
+  padding-left: 30px;
+  left: calc((100% - 1560px)/2);
+  position: absolute;
+  bottom: 65px;
+  z-index: 1; }
+  .slider .slick-dots li button {
+    width: 51px;
+    height: 1px;
+    background: #A6A6A6;
+    border: none;
+    outline: none;
+    padding: 0;
+    color: transparent; }
+  .slider .slick-dots .slick-active {
+    height: 3px;
+    background-color: #DA9343; }
+    .slider .slick-dots .slick-active button {
+      background-color: #DA9343; }
+
+.slider__dots {
+  position: absolute;
+  left: calc((100% - 1560px)/2);
+  top: 675px;
+  display: flex;
+  z-index: 0; }
+
+.slider__count {
+  padding-left: 125px; }
