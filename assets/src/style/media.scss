@@ -413,6 +413,7 @@
     }
     &__mobile {
       padding: 10px 0 30px;
+      top: 64px
     }
   }
   .mobile-dropdown {
@@ -621,5 +622,25 @@
   }
 }
 @media (max-width: 420px) {
-  
+  .main-banner {
+    &__wrap {
+      padding-bottom: 120px;
+    }
+    &__sign {
+      width: 120px;
+      left: 20px;
+    }
+  }
+  .slider {
+    .slick-dots {
+      bottom: 38px;
+    }
+    ul {
+      padding-left: 0!important;
+    }
+  }
+  .slider-dots {
+    top: 497px;
+    left: calc(50% - 77px);
+  }
 }

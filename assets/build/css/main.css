@@ -8226,7 +8226,8 @@ h3 {
         margin-left: 0;
         margin-bottom: 24px; }
     .header__mobile {
-      padding: 10px 0 30px; }
+      padding: 10px 0 30px;
+      top: 64px; }
   .mobile-dropdown__sign {
     display: none; }
   .mobile-dropdown__footer {
@@ -8354,3 +8355,17 @@ h3 {
     padding-bottom: 16px; }
     .footer-bottom .container div:first-child {
       flex: 100%; } }
+
+@media (max-width: 420px) {
+  .main-banner__wrap {
+    padding-bottom: 120px; }
+  .main-banner__sign {
+    width: 120px;
+    left: 20px; }
+  .slider .slick-dots {
+    bottom: 38px; }
+  .slider ul {
+    padding-left: 0 !important; }
+  .slider-dots {
+    top: 497px;
+    left: calc(50% - 77px); } }
