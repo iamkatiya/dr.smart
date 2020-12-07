@@ -7743,6 +7743,10 @@ h3 {
 .active-dropdown {
   left: 0; }
 
+.advantage-slider {
+  padding-bottom: 320px;
+  margin-top: 32px; }
+
 @font-face {
   font-family: 'Montserrat Medium';
   src: url("../fonts/Montserrat-Medium.ttf"); }
@@ -7797,6 +7801,10 @@ h3 {
     .text-sub {
       font-size: 18px;
       line-height: 26px; } }
+  @media (max-width: 700px) {
+    .text-sub {
+      font-size: 12px;
+      line-height: 22px; } }
 
 .text-sub2 {
   font-family: 'Montserrat Medium', sans-serif;
@@ -8070,7 +8078,9 @@ h3 {
   .header__mobile {
     display: none; }
   .work-mobile {
-    display: none; } }
+    display: none; }
+  .advantage-slider {
+    display: none !important; } }
 
 @media (max-width: 1200px) {
   .container {
@@ -8232,7 +8242,67 @@ h3 {
       margin-right: 8px;
       padding-top: 5px; }
     .work-item__text p {
-      min-width: 279px; } }
+      min-width: 279px; }
+  .services-banner .container {
+    background-size: 140%;
+    padding: 101px 0 92px; }
+  .service-first {
+    margin-top: 88px; }
+    .service-first__image {
+      flex: 35%;
+      width: 35%; }
+    .service-first__text {
+      flex: 65%;
+      width: 65%;
+      padding-left: 24px; }
+    .service-first-content__head {
+      padding-bottom: 10px; }
+  .service-second {
+    margin-top: 88px; }
+    .service-second-content {
+      flex: 65%;
+      width: 65%;
+      padding-right: 24px; }
+      .service-second-content__head {
+        padding-bottom: 10px; }
+    .service-second .hand-over__btn {
+      margin-left: 0; }
+  .service-left__image {
+    flex: 35%;
+    width: 35%; }
+  .service-third {
+    margin-top: 88px;
+    flex-wrap: wrap; }
+    .service-third__text {
+      padding-left: 0;
+      order: 1;
+      flex: 100%;
+      width: 100%; }
+    .service-third__image {
+      order: 2;
+      margin-top: 40px;
+      padding-left: 120px; }
+    .service-third-content__head {
+      padding-bottom: 10px; }
+  .service-advantages {
+    margin-top: 88px;
+    padding-top: 48px; }
+    .service-advantages__why {
+      max-width: 249px; }
+    .service-advantages__small-text {
+      padding-left: 36px;
+      max-width: 355px;
+      padding-top: 15px; }
+  .advantages {
+    display: none; }
+  .service-advantages .advantages__item:nth-child(2) {
+    margin: 0 1px; }
+  .advantage__text {
+    padding-right: 14px;
+    height: 96px; }
+  .advantage__head {
+    white-space: normal;
+    height: 52px; } }
 
 @media (min-width: 701px) {
   .contacts__phone__mobile {
@@ -8396,7 +8466,54 @@ h3 {
   .review-dots {
     left: calc(50% - 130px); }
   .review .slick-dots {
-    padding-left: 0 !important; } }
+    padding-left: 0 !important; }
+  .services-banner .container {
+    background-image: url("../img/airpods-mob.png");
+    background-size: auto;
+    padding: 101px 20px 192px; }
+  .services-banner__head {
+    margin-top: -20px; }
+  .services-banner__text {
+    margin-top: 0;
+    margin-bottom: 90px; }
+  .service-first {
+    margin-top: 64px;
+    flex-wrap: wrap; }
+    .service-first__image {
+      flex: 100%;
+      width: 100%;
+      order: 2; }
+    .service-first__text {
+      flex: 100%;
+      width: 100%;
+      order: 1;
+      padding-left: 0;
+      padding-bottom: 48px; }
+  .service-second {
+    margin-top: 64px;
+    flex-wrap: wrap; }
+    .service-second-content {
+      flex: 100%;
+      width: 100%;
+      order: 1;
+      padding-left: 0;
+      padding-bottom: 48px; }
+  .service-left__image {
+    order: 2; }
+  .service-third {
+    margin-top: 64px; }
+    .service-third__image {
+      padding-left: 0; }
+  .advantage-slider {
+    padding-bottom: 470px; }
+  .service-advantages__small-text {
+    padding-left: 0; }
+  .advantage__head {
+    height: auto; }
+  .advantage__text {
+    height: auto; }
+  .service-advantages .advantages__item:nth-child(2) {
+    margin: 0 0px; } }
 
 @media (max-width: 500px) {
   .feedback-form {

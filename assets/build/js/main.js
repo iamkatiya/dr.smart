@@ -79,3 +79,16 @@ $('#burger').click(function () {
   $('.burger__line.burger__third-line').toggleClass('transform-third');
   $('.header__mobile').toggleClass('active-dropdown');
 });
+
+$(".advantage-slider").slick({
+  slidesToShow: 2,
+  arrows: false,
+  dots: false,
+  slidesToScroll: 1,
+  responsive: [{
+    breakpoint: 700,
+    settings: {
+      slidesToShow: 1
+    }
+  }]
+});

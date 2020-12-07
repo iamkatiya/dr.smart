@@ -187,6 +187,9 @@
   .work-mobile {
     display: none;
   }
+  .advantage-slider {
+    display: none!important;
+  }
 }
 @media (max-width: 1200px) {
   .container {
@@ -423,6 +426,97 @@
           min-width: 279px;
         }
       }
+    }
+  }
+  .services-banner {
+    .container {
+      background-size: 140%;
+      padding: 101px 0 92px;
+    }
+  }
+  .service-first {
+    margin-top: 88px;
+    &__image {
+      flex: 35%;
+      width: 35%;
+    }
+    &__text {
+      flex: 65%;
+      width: 65%;
+      padding-left: 24px;
+    }
+    &-content {
+      &__head {
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .service-second {
+    margin-top: 88px;
+    &-content {
+      flex: 65%;
+      width: 65%;
+      padding-right: 24px;
+      &__head {
+        padding-bottom: 10px;
+      }
+    }
+    .hand-over__btn {
+      margin-left: 0;
+    }
+  }
+  .service-left {
+    &__image {
+      flex: 35%;
+      width: 35%;
+    }
+  }
+  .service-third {
+    margin-top: 88px;
+    flex-wrap: wrap;
+    &__text {
+      padding-left: 0;
+      order: 1;
+      flex: 100%;
+      width: 100%;
+    }
+    &__image {
+      order: 2;
+      margin-top: 40px;
+      padding-left: 120px;
+    }
+    &-content {
+      &__head {
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .service-advantages {
+    margin-top: 88px;
+    padding-top: 48px;
+    &__why {
+      max-width: 249px;
+    }
+    &__small-text {
+      padding-left: 36px;
+      max-width: 355px;
+      padding-top: 15px;
+    }
+  }
+  .advantages {
+    display: none;
+  }
+  .service-advantages .advantages__item:nth-child(2) {
+    margin: 0 1px;
+  }
+  .advantage {
+    &__text {
+      padding-right: 14px;
+      height: 96px;
+    }
+    &__head {
+      white-space: normal;
+      height: 52px;
     }
   }
 }
@@ -690,6 +784,75 @@
     .slick-dots {
       padding-left: 0!important;
     }
+  }
+  .services-banner {
+    .container {
+      background-image: url("../img/airpods-mob.png");
+      background-size: auto;
+      padding: 101px 20px 192px;
+    }
+    &__head {
+      margin-top: -20px;
+    }
+    &__text {
+      margin-top: 0;
+      margin-bottom: 90px;
+    }
+  }
+  .service-first {
+    margin-top: 64px;
+    flex-wrap: wrap;
+    &__image {
+      flex: 100%;
+      width: 100%;
+      order: 2;
+    }
+    &__text {
+      flex: 100%;
+      width: 100%;
+      order: 1;
+      padding-left: 0;
+      padding-bottom: 48px;
+    }
+  }
+  .service-second {
+    margin-top: 64px;
+    flex-wrap: wrap;
+    &-content {
+      flex: 100%;
+      width: 100%;
+      order: 1;
+      padding-left: 0;
+      padding-bottom: 48px;
+    }
+  }
+  .service-left {
+    &__image {
+      order: 2;
+    }
+  }
+  .service-third {
+    margin-top: 64px;
+    &__image {
+      padding-left: 0;
+    }
+  }
+  .advantage-slider {
+    padding-bottom: 470px;
+  }
+  .service-advantages__small-text {
+    padding-left: 0;
+  }
+  .advantage {
+    &__head {
+      height: auto;
+    }
+    &__text {
+      height: auto;
+    }
+  }
+  .service-advantages .advantages__item:nth-child(2) {
+    margin: 0 0px;
   }
 }
 @media (max-width: 500px) {

@@ -52,6 +52,10 @@
     font-size: 18px;
     line-height: 26px;
   }
+  @media (max-width: 700px) {
+    font-size: 12px;
+    line-height: 22px;
+  }
 }
 .text-sub2 {
   font-family: 'Montserrat Medium', sans-serif;
