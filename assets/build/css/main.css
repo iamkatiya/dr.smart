@@ -7995,7 +7995,7 @@ h3 {
     padding: 115px 0; }
     .hand-over__head {
       margin-left: 100px;
-      max-width: 252px; }
+      max-width: 260px; }
     .hand-over__btn {
       margin-right: 100px; }
     .hand-over__text {
@@ -8226,7 +8226,7 @@ h3 {
         margin-left: 0;
         margin-bottom: 24px; }
     .header__mobile {
-      padding: 10px 0 30px;
+      padding: 30px 0;
       top: 64px; }
   .mobile-dropdown__sign {
     display: none; }
@@ -8325,7 +8325,7 @@ h3 {
   .feedback-form .about-content__head {
     padding-bottom: 8px; }
   .footer {
-    padding-top: 340px;
+    padding-top: 440px;
     padding-bottom: 16px; }
     .footer__contacts {
       order: 1;
@@ -8354,7 +8354,25 @@ h3 {
   .footer-bottom .container div {
     padding-bottom: 16px; }
     .footer-bottom .container div:first-child {
-      flex: 100%; } }
+      flex: 100%; }
+  .review-dots {
+    left: calc(50% - 130px); }
+  .review .slick-dots {
+    padding-left: 0 !important; } }
+
+@media (max-width: 500px) {
+  .feedback-form {
+    margin-bottom: -376px;
+    margin-top: -439px; }
+  .form__text {
+    padding-right: 0;
+    flex: 90%;
+    width: 90%; }
+  .checkbox {
+    flex: 10%;
+    width: 10%; }
+  .custom-checkbox + label::before {
+    margin-right: 7px; } }
 
 @media (max-width: 420px) {
   .main-banner__wrap {
