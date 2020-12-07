@@ -111,6 +111,69 @@
       left: calc((100% - 1160px)/ 2);
     }
   }
+  .service-first {
+    &__image {
+      flex: 50%;
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    &__text {
+      flex: 50%;
+      width: 50%;
+      box-sizing: border-box;
+      padding: 0 0 0 64px;
+    }
+  }
+  .service-left {
+    &__image {
+      flex: 42%;
+      width: 42%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .service-second {
+    &-content {
+      flex: 58%;
+      width: 58%;
+      box-sizing: border-box;
+      padding: 0 64px 0 0;
+    }
+  }
+  .service-third {
+    &__image {
+      flex: 48%;
+      width: 48%;
+      img {
+        width: 100%;
+      }
+    }
+    &__text {
+      flex: 52%;
+      width: 52%;
+      padding: 0 0 0 64px;
+    }
+  }
+  .service-advantages {
+    .advantages {
+      .container {
+        padding: 0;
+      }
+      &__item {
+        &:nth-child(2) {
+          margin: 0 14px;
+        }
+      }
+    }
+  }
+  .advantage {
+    &__head {
+      white-space: nowrap;
+    }
+  }
 }
 @media (min-width: 1201px) {
   .header {

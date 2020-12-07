@@ -512,11 +512,15 @@ h3 {
 }
 .services-banner {
   background-color: #010101;
-  padding: 190px 0 202px;
-  background-image: url("../img/airpods.png");
-  background-position: 76%;
-  background-position-y: bottom;
-  background-repeat: no-repeat;
+  padding-top: 30px;
+  .container {
+    background-image: url("../img/airpods.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #010101;
+    padding: 190px 0 202px;
+    background-position: center;
+  }
   &__text {
     margin-top: 24px;
   }
