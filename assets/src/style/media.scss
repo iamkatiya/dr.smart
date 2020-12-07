@@ -174,6 +174,25 @@
       white-space: nowrap;
     }
   }
+  .price-banner {
+    .container {
+      background-size: 56%;
+    }
+  }
+  .price-content {
+    &__prepare {
+      flex: 420px;
+      width: 420px;
+      padding-left: 61px;
+      padding-right: 0;
+    }
+    &__cost {
+      width: calc(100% - 420px);
+      flex: calc(100% - 420px);
+      padding-right: 53px;
+      box-sizing: border-box;
+    }
+  }
 }
 @media (min-width: 1201px) {
   .header {

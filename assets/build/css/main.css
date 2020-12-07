@@ -8070,7 +8070,19 @@ h3 {
   .service-advantages .advantages__item:nth-child(2) {
     margin: 0 14px; }
   .advantage__head {
-    white-space: nowrap; } }
+    white-space: nowrap; }
+  .price-banner .container {
+    background-size: 56%; }
+  .price-content__prepare {
+    flex: 420px;
+    width: 420px;
+    padding-left: 61px;
+    padding-right: 0; }
+  .price-content__cost {
+    width: calc(100% - 420px);
+    flex: calc(100% - 420px);
+    padding-right: 53px;
+    box-sizing: border-box; } }
 
 @media (min-width: 1201px) {
   .header__burger {
