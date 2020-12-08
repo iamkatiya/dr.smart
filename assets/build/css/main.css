@@ -8567,7 +8567,29 @@ h3 {
   .advantage__text {
     height: auto; }
   .service-advantages .advantages__item:nth-child(2) {
-    margin: 0 0px; } }
+    margin: 0 0px; }
+  .price-banner .container {
+    background-position-x: center; }
+  .price-banner__head {
+    padding-top: 0; }
+  .price-banner__sign {
+    padding-bottom: 140px; }
+  .cost-block__wrapper {
+    flex-wrap: wrap; }
+  .cost-block__select {
+    width: auto; }
+  .price-block {
+    padding: 64px 0; }
+  .price-content__cost {
+    padding-right: 0; }
+  .prepare-block__item img:first-child {
+    width: 57px; }
+  .prepare-block__item p:before {
+    background-color: transparent; }
+  .instructions {
+    padding-top: 64px; }
+  .instruction-content__replace:first-child {
+    margin-right: 0; } }
 
 @media (max-width: 500px) {
   .feedback-form {

@@ -941,6 +941,49 @@
   .service-advantages .advantages__item:nth-child(2) {
     margin: 0 0px;
   }
+  .price-banner {
+    .container {
+      background-position-x: center;
+    }
+    &__head {
+      padding-top: 0;
+    }
+    &__sign {
+      padding-bottom: 140px;
+    }
+  }
+  .cost-block {
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+    &__select {
+      width: auto;
+    }
+  }
+  .price-block {
+    padding: 64px 0;
+  }
+  .price-content {
+    &__cost {
+      padding-right: 0;
+    }
+  }
+  .prepare-block {
+    &__item {
+      img:first-child {
+        width: 57px;
+      }
+      p:before {
+        background-color: transparent;
+      }
+    }
+  }
+  .instructions {
+    padding-top: 64px;
+  }
+  .instruction-content__replace:first-child {
+    margin-right: 0;
+  }
 }
 @media (max-width: 500px) {
   .feedback-form {

@@ -91,3 +91,4 @@ $(".advantage-slider").slick({
     }
   }]
 });
+
