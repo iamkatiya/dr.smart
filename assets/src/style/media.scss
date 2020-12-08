@@ -538,6 +538,74 @@
       height: 52px;
     }
   }
+  .price-banner {
+    padding-top: 77px;
+    &__sign {
+      padding-top: 10px;
+    }
+    .container {
+      background-size: 76%;
+    }
+  }
+  .price-block {
+    padding: 88px 0;
+    &__nav {
+      flex-wrap: wrap;
+    }
+  }
+  .price-nav {
+    &__head {
+      flex: 100%;
+      margin-bottom: 32px;
+    }
+    &__item {
+      margin-left: 0;
+      margin-right: 24px;
+    }
+  }
+  .price-content {
+    flex-wrap: wrap;
+    &__cost {
+      flex: 100%;
+      width: 100%;
+    }
+    &__prepare {
+      flex: 100%;
+      width: 100%;
+      margin-top: 48px;
+      padding-left: 0;
+      border-left: transparent;
+      text-align: left;
+    }
+  }
+  .prepare-block {
+    &__head {
+      margin-bottom: 24px;
+    }
+    &__item {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .instructions {
+    padding-top: 88px;
+    padding-bottom: 423px;
+    &__row {
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+  }
+  .instruction-content {
+    &__condition {
+      margin-top: 32px;
+    }
+    &__replace {
+      &:last-child {
+        margin-top: 48px;
+      }
+    }
+  }
 }
 @media (min-width: 701px) {
   .contacts {
