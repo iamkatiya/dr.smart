@@ -193,6 +193,21 @@
       box-sizing: border-box;
     }
   }
+  .contacts-banner {
+    padding-top: 102px;
+  }
+  .contacts-content {
+    padding-top: 88px;
+    .container {
+      flex-wrap: wrap;
+    }
+    &__addresses {
+      padding-bottom: 64px;
+    }
+    &__map {
+      margin-left: 0;
+    }
+  }
 }
 @media (min-width: 1201px) {
   .header {
