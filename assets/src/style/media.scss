@@ -621,6 +621,16 @@
       }
     }
   }
+  .policy-banner {
+    background-size: 60%;
+    padding: 120px 0 149px;
+  }
+  .policy-content {
+    padding: 64px 0;
+    &__wrapper {
+      padding-right: 0;
+    }
+  }
 }
 @media (min-width: 701px) {
   .contacts {

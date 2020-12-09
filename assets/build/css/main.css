@@ -8369,7 +8369,14 @@ h3 {
   .instruction-content__condition {
     margin-top: 32px; }
   .instruction-content__replace:last-child {
-    margin-top: 48px; } }
+    margin-top: 48px; }
+  .policy-banner {
+    background-size: 60%;
+    padding: 120px 0 149px; }
+  .policy-content {
+    padding: 64px 0; }
+    .policy-content__wrapper {
+      padding-right: 0; } }
 
 @media (min-width: 701px) {
   .contacts__phone__mobile {
