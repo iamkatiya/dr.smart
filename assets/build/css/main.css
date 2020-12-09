@@ -6953,6 +6953,7 @@ h3 {
   position: fixed;
   width: 100%;
   background-color: white;
+  top: 0;
   z-index: 10;
   border-bottom: 2px solid rgba(128, 128, 128, 0.11); }
   .header .container {
@@ -7633,10 +7634,12 @@ h3 {
 
 .contacts-banner {
   padding: 175px 0 221px;
-  background-image: url("../img/contacts-banner.jpg");
+  background-image: url(../img/contacts-banner.jpg);
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-size: contain; }
+  background-size: 2240px auto;
+  background-position: center;
+  margin-top: 80px; }
   .contacts-banner__sign {
     margin-top: 24px; }
 
